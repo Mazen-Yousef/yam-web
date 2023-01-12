@@ -31,7 +31,7 @@ const App = () => {
     },
     {
       id: 6,
-      title: 'Group F',
+      title: 'Group FFF',
       imageUrl: "https://i.ibb.co/t8TxJ7y/6.jpg"
     }
   ];
