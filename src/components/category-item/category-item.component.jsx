@@ -10,7 +10,7 @@ return (
     }} />
     <div className='category-body-container'>
     <h2>{title}</h2>
-    <p>Show Now</p>
+    <p>show now</p>
     </div>
 </div>
 )}
