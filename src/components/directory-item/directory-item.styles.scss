@@ -1,11 +1,11 @@
-.category-container {
+.directory-item-container {
     min-width: 30%;
-    height: 240px;   
+    height: 370px;   
     display: flex;
     flex: 1 1 auto;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
+    border: 1px solid #B08BBB;
     margin: 0 7.5px 15px;
     overflow: hidden;
   
@@ -17,7 +17,7 @@
         transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
       }
   
-      & .category-body-container {
+      & .directory-item-body {
         opacity: 0.9;
       }
     }
@@ -38,17 +38,18 @@
       width: 100%;
       height: 100%;
       background-size: cover;
-      background-position: center;
+      background-position: 0 3px;
     }
   
-    .category-body-container {
+    .directory-item-body {
+
       height: 90px;
       padding: 0 25px;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      border: 1px solid black;
+      border: 1px solid #B08BBB;
       background-color: white;
       opacity: 0.7;
       position: absolute;
