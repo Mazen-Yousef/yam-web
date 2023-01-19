@@ -9,11 +9,11 @@
                 <polygon id="Rectangle" fill-opacity="0.662838724"  fill="#B08BBB" points="3 14 25 26.5 47 14 40.855176 39 9.08421785 39"></polygon>
                 <polygon id="Triangle" fill-opacity="0.362838724" fill="#B08BBB" points="25 8 40 39 10 39"></polygon>
                 
-                <text x="-1" y="10" fill="#F56EB3" fill-opacity="0.2">Y</text>
+                <text x="-1" y="10" fill="#FF99D7" fill-opacity="0.4">Y</text>
                 <circle id="Oval" fill="#B08BBB" cx="4" cy="14" r="2"></circle>
-                <text x="21" y="3" fill="#F56EB3" fill-opacity="0.4">A</text>
+                <text x="21" y="3" fill="#FF99D7" fill-opacity="0.8">A</text>
                 <circle id="Oval" fill="#B08BBB" cx="25" cy="8" r="2"></circle>
-                <text x="40" y="10" fill="#F56EB3" fill-opacity="0.2">M</text>
+                <text x="40" y="10" fill="#FF99D7" fill-opacity="0.4">M</text>
                 <circle id="Oval" fill="#B08BBB" cx="47" cy="14" r="2"></circle>
             </g>
         </g>
