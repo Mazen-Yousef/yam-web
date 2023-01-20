@@ -3,25 +3,25 @@
     "id": 1,
     "name": "Weihnachtshaus",
     "imageUrl": "https://i.ibb.co/tpGfcB9/5.jpg",
-    "price": 18
+    "price": 2
   },
   {
     "id": 2,
     "name": "Der Schneemann und der Löwe",
     "imageUrl": "https://i.ibb.co/t8TxJ7y/6.jpg",
-    "price": 14
+    "price": 5
   },
   {
     "id": 3,
     "name": "Die Schnecke",
     "imageUrl": "https://i.ibb.co/3rGHdfB/7.jpg",
-    "price": 18
+    "price": 7
   },
   {
     "id": 4,
     "name": "Der Dinosaurier",
     "imageUrl": "https://i.ibb.co/mCb64xQ/8.jpg",
-    "price": 14
+    "price": 10
   },
   {
     "id": 5,
@@ -33,7 +33,7 @@
     "id": 6,
     "name": "Einhorn mit einem Berg",
     "imageUrl": "https://i.ibb.co/NZjWz2G/10.jpg",
-    "price": 18
+    "price": 14
   },
   {
     "id": 7,
@@ -99,7 +99,7 @@
     "id": 17,
     "name": "Peppa Wutz",
     "imageUrl": "https://i.ibb.co/w0L9YYv/3.jpg",
-    "price": 35
+    "price": 40
   },
   {
     "id": 18,
