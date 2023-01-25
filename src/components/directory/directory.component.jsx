@@ -18,7 +18,7 @@ const Directory = () => {
     {
       id: 3,
       title: 'group C',
-      imageUrl: "https://i.ibb.co/w0L9YYv/3.jpg",
+      imageUrl: "https://i.ibb.co/hL63711/out-3.jpg",
       route: 'shop/group c'
     },
     {
