@@ -8,6 +8,11 @@ export const CheckoutContainer = styled.div`
       align-items: center;
       margin: 50px auto 0;
       color:#7F669D ;
+      @media screen and (max-width: 900px) {
+     
+            width: 95%;
+               
+          }
 `;
 export const CheckoutHeader = styled.div`
       width: 100%;

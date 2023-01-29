@@ -23,19 +23,23 @@ export const Body = styled.div`
     background-color: white;
     opacity: 0.7;
     position: absolute;
-
+    color: #B08BBB;
+    
     h2 {
       font-weight: bold;
-      margin: 0 6px 0;
       font-size: 22px;
-      color: #B08BBB;
       text-transform:uppercase;
+      margin: 0 6px 0;
     }
 
     p {
       font-weight: lighter;
       font-size: 16px;
-      color: #B08BBB;
+      margin: 0 6px 0;
+    }
+    @media screen and (max-width: 800px) {
+      height: 70px;
+      
     }
 `;
 
@@ -49,7 +53,10 @@ export const DirectoryItemContainer = styled.div`
     border: 1px solid #B08BBB;
     margin: 0 7.5px 15px;
     overflow: hidden;
-
+    @media screen and (max-width: 800px) {
+        height: 200px;
+        width: 45%;
+      }
     &:hover {
       cursor: pointer;
 
@@ -60,7 +67,7 @@ export const DirectoryItemContainer = styled.div`
 
       & ${Body} {
         opacity: 0.9;
-      }
+      } }   
       
 
       &:first-child {
@@ -70,8 +77,9 @@ export const DirectoryItemContainer = styled.div`
       &:last-child {
       margin-left: 7.5px;
      }
+        
 
-`
+`;
 
 
 
