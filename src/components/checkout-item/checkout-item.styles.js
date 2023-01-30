@@ -12,18 +12,25 @@ export const CheckoutItemContainer = styled.div`
 `;
 export const ImageContainer = styled.div`
     width: 23%;
-    padding-right: 15px;
+    padding-right: 15px;  
+    @media screen and (max-width: 900px) {
+        width: 50%;      
+      }
 `;
 
 export const Img = styled.img`
     width: 100%;
     height: 100%;
+
 `;
 export const Arrow = styled.div`
     cursor: pointer;
 `;
 export const NamePrice = styled.span`
     width: 23%;
+    @media screen and (max-width: 900px) {
+        width: 60%;      
+      }
 `;
 export const Value = styled.span`
     margin: 0 10px; 

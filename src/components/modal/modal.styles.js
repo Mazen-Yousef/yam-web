@@ -7,6 +7,13 @@ export const ModalContainer = styled.div`
     //text-decoration: overline;
     font-size:  2.5em; /* 40px/16=2.5em */
     font-style: oblique;
+    @media screen and (max-width: 900px) {
+     
+        font-size:  1.5em;
+        
+   }
+
+
 `;
 export const ModalImage= styled.img`
     width: 55%;
@@ -17,7 +24,15 @@ export const ModalImage= styled.img`
     border: 2px solid #B08BBB;
     outline: 8px ridge #FF99D7;
     outline-offset: 15px;
+    @media screen and (max-width: 900px) {
+     
+        width: 100%;
+     
+}
+    
 `;
+
+
 
 
     
