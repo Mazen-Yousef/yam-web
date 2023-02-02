@@ -2,10 +2,11 @@ import {CartIconContainer,ItemCount,ShoppingIcon} from './cart-icon.styles';
 import { useContext } from 'react';
 import { CartContext } from '../../contexts/cart.context.js';
 
+export let toggleIsCartOpen ;
 const CartIcon = () => {
   const { isCartOpen, setIsCartOpen, cartItemsCount } = useContext(CartContext);
 
-  const toggleIsCartOpen = () => setIsCartOpen(!isCartOpen);
+  toggleIsCartOpen = () => setIsCartOpen(!isCartOpen);
 
   return (
     <CartIconContainer onClick = {toggleIsCartOpen}>
